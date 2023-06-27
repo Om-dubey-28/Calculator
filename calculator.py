@@ -1,11 +1,4 @@
-# m=10
-# n=5
-# print("Add=",m+n)
-# print("sub=",m-n)
-# print("Div=",m/n)
-# print("mul=",m*n)
-# print("expo=",m**n)
-# def calculator():
+
 print("Calculator")
 print("-----------")
 num1 = float(input("Enter the first number: "))
@@ -24,6 +17,8 @@ elif operator == '/':
             result = num1 / num2
         else:
             print("Error: Cannot divide by zero!") 
+else:
+        print("Wrong Choice")
     
     
 
